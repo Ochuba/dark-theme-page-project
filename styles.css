@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
 body{
     background-color:  hsl(218, 28%, 13%);
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+#main{
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.nav_icon{
+    position: fixed;
+    right: 0;
+    top: 30px;
+}
+.nav_icon li{
+    list-style: none;
+    display: inline;
+    padding-right: 50px;
+    font-family:  'Raleway', sans-serif;
+    font-weight: 400;
+    color:  hsl(0, 0%, 80%);
+}
+.illustrate{
+    margin: 0 , auto;
 }
