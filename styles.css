@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
 body{
-    background-color:  hsl(218, 28%, 13%);
+    background-color:   hsl(217, 28%, 15%);
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%); 
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 #main{
     padding-top: 30px;
     padding-left: 25px;
+    position: fixed;
+    background-color:   hsl(217, 28%, 15%);
+    z-index: 9999;
+    width: 100%;
+
 }
 .nav_icon{
     position: fixed;
@@ -23,5 +31,399 @@ body{
     color:  hsl(0, 0%, 80%);
 }
 .illustrate{
-    margin: 0 , auto;
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+    
+}
+.explain{
+    font-size: 36px;
+    color:  hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+.intro{
+    background-image: url(./images/bg-curvy-desktop.svg);
+   margin-top: -70px;
+   background-repeat: no-repeat;
+   height: 100%;
+ 
+    
+}
+.sec-exp{
+    text-align: center;
+    padding-top: 95px;
+    font-weight: 400;
+    font-size: 20px;
+    color:   hsl(0, 0%, 80%);;
+ 
+}
+.first_button{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    border-radius: 20px;
+    color:  hsl(0, 0%, 100%) ;
+    font-family:  'Raleway', sans-serif;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto;
+    display: block;
+}
+.properties{
+    background-color: hsl(218, 28%, 13%) ;
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 160px;
+    padding-right: 160px;
+    
+}
+.properties p{
+    text-align: center;
+}
+.properties h2{
+    font-size: 18px ;
+}
+.individual_properties{
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.stayD{
+    background-color: hsl(218, 28%, 13%) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.stay_inner{
+    padding-left: 60px;
+    padding-right: 70px;
+ 
+}
+.stay_inner h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family:  'Raleway', sans-serif;
+}
+.stay_inner a{
+    color: #62E0D9;
+}
+.name_title img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+}
+/* Testimonials */
+.testimonials{
+    background-color: hsl(218, 28%, 13%);
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    
+}
+.inner-testimonials{
+    width: 300px;
+    height: 150px;
+    background-color: hsl(219, 30%, 18%);
+    z-index: 2;
+    box-shadow: 0px 0 5px hsl(219, 30%, 18%);
+    border-radius: 3px;
+}
+.words{
+    font-size: 11px;
+    padding-top: 9px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color:  hsl(0, 0%, 90%);
+    font-weight: 400;
+}
+
+.name_title{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.name_title img{
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.name{
+    font-weight: 700;
+    font-size: 13px;
+}
+.title{
+    font-weight: 400;
+    font-size: 10px;
+    color:  hsl(0, 0%, 70%);
+}
+.quote_image{
+  position: relative;
+  bottom: 30px;
+  left: 140px;
+  z-index: 1;
+}
+/* Signup */
+.signup{
+    height: 200px;
+    width: 700px;
+    background-color:  hsl(217, 28%, 15%);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 0px 0 10px hsl(218, 28%, 13%);
+    border-radius: 5px;
+
+}
+.signup p{
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.signup h2{
+    font-weight: 700;
+   font-size: 25px;
+}
+.inner_signup{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#email{
+    padding-right: 250px;
+    margin-left: 30px;
+    padding-left: 18px;
+    border: none;
+    border-radius: 30px;
+}
+/* The last section */
+.last_section{
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -220px;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.flast{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 50px;
+}
+.slast{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 50px;
+}
+.tlast{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 50px;
+}
+.folast{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 50px;
+}
+.filast{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 50px;
+}
+.fflast{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+}
+.fflast img{
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 14px;
+}
+.fslast{
+    display: flex;
+    flex-direction: row;
+}
+.fslast img{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.sslast{
+    display: flex;
+    flex-direction: row;
+}
+.sslast img{
+    height: 17px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.lLogo{
+    width: 120px;
+    height: 50px;
+
+}
+.filast i{
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    background-color: hsl(216, 53%, 9%);
+    margin-top:    -20px;
+    padding-bottom: 10px;
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 768px){
+  
+    #main{
+        position: fixed;
+    }
+    .icon_main img{
+        height: 70px;
+        width: 80px;
+    }
+    .nav_icon li{
+        padding-right: 20px;
+    }
+    .intro{
+        background-image: url(./images/bg-curvy-desktop.svg);
+        width: 100%;
+        background-size: cover;
+     
+        
+    }
+    .explain{
+        font-size: 18px;
+        width: 80%;
+       text-align: center;
+    }
+    .sec-exp{
+        font-size: 12px;
+  
+      text-align: center;
+    }
+    .illustrate{
+        width: 220px;
+        height: 170px;
+    }
+    .properties{
+        background-color: hsl(218, 28%, 13%) ;
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right:10px;
+        
+    }
+    .individual_properties{
+        display: flex;
+        padding: 70px;
+        text-align: center;
+    
+    }
+    .stayD{
+        background-color: hsl(218, 28%, 13%) ;
+        display: flex;
+        flex-direction: column;
+       padding-left: 0px;
+    }
+    .stay_inner{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .stay-img{
+        width: 70%;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 60px;
+    }
+    .inner-testimonials{
+        width: 80%;
+        height: 150px;
+        background-color: hsl(219, 30%, 18%);
+        z-index: 2;
+        box-shadow: 0px 0 5px hsl(219, 30%, 18%);
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    .quote_image{
+        position: relative;
+        top: 20px;
+        left: -5px;
+        z-index: 1;
+      }
+      .signup{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        bottom: 150px;
+        margin-bottom: 100px;
+      }
+      .inner_signup{
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+      #email{
+        padding-right: 10px;
+        margin-left: 30px;
+        padding-left: 18px;
+        border: none;
+        padding-top: 20px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+      .last_section{
+        background-color: hsl(216, 53%, 9%);
+        margin-top: -520px;
+        padding-top: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    .flast{
+        
+        padding-bottom: 50px;
+    }
+    .slast{
+        padding-bottom: 50px;
+    }
+    .tlast{
+        padding-bottom: 50px;
+    }
+    .folast{
+        padding-bottom: 50px;
+    }
+    .filast{
+        padding-bottom: 50px;
+    }
 }
